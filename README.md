@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ### Pretrained models
 
 We provide checkpoints for [**DiffChest**](https://drive.google.com/file/d/1CPw6FLqyafC-H2Ta3EfhpLWFqYE9Xd0j/view?usp=sharing) model trained on a joint collection of CXRs, namely, MIMIC-CXR (USA), CheXpert (USA), and PadChest (Spain).
-In addition, we also offer the [**classifier**](https://drive.google.com/file/d/1CYwXQXzxc6ImKiQABBkOIv3umrke_HzH/view?usp=sharing) model finetuned on high-quality PadChest subset which was annotated by physicians.
+In addition, we also offer [**latent statistics**](https://drive.google.com/file/d/1CQNiez_zVxX_9dLrK5z0NpuOZcvnJ-pr/view?usp=sharing) and the [**classifier**](https://drive.google.com/file/d/1CYwXQXzxc6ImKiQABBkOIv3umrke_HzH/view?usp=sharing) model finetuned on high-quality PadChest subset which was annotated by physicians.
 
 Checkpoints ought to be put into a separate directory `checkpoints`. 
 Download the checkpoints and put them into `checkpoints` directory. It should look like this:
