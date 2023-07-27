@@ -20,7 +20,6 @@ from torchvision.utils import make_grid, save_image
 from config import *
 from dataset import *
 from dist_utils import *
-from lmdb_writer import *
 from metrics import *
 from renderer import *
 
