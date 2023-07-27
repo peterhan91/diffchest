@@ -43,7 +43,7 @@ Please register and download those public available CXR datasets:
 After downloading and preprocessing those images, you need to create a [**LMDB**](https://github.com/advimman/CIPS/blob/main/prepare_data.py) dataset for model training.
 
 
-# Training
+## Training
 We provide scripts for training & evaluate DiffChest on the following datasets: MIMIC-CXR, CheXpert, and PadChest.
 
 Note: Most experiment requires at least 3x 3090s during training the DPM models while requiring 1x 2080Ti during training the accompanying classification head. 
@@ -62,25 +62,25 @@ After the previous stage, a classifier (for manipulation) can be trained using:
 python run_padchest_cls.py
 ```
 
-# Testing
+## Testing
 
 We provide a testing script for evaluating the classification performance of DiffChest:
 ```
 python test_padchest_cls.py
 ```
 
-# Visual explanations 
+## Visual explanations 
 To generate visual explanations described in our paper, simply run:
 ```
 python manipulate.py
 ```
 
 
-# Issues
+## Issues
 Please open new issue threads specifying the issue with the codebase or report issues directly to than@ukaachen.de.
 
 
-# License
+## License
 The source code for the site is licensed under the MIT license, which you can find in the `LICENSE` file.
 
 ## Acknowledgments
