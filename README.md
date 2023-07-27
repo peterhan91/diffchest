@@ -83,3 +83,7 @@ Please open new issue threads specifying the issue with the codebase or report i
 # License
 The source code for the site is licensed under the MIT license, which you can find in the `LICENSE` file.
 
+## Acknowledgments
+
+The official implementation of diffae model: https://github.com/phizaz/diffae
+
