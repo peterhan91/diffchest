@@ -1,7 +1,7 @@
 # Self-supervised diffusion pretraining for thoracic pathology detection offers confounder insights
 
 
- ### Try a Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1OTfwkklN-IEd4hFk4LnweOleyDtS4XTh/view?usp=sharing)
+ ### Try a Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gHWCQxreE1Olo2uQiXfSFSVInmiX85Nn?usp=sharing)
 
 <p align="center">
     <img src="imgs/fig.png">
