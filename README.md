@@ -34,7 +34,7 @@ checkpoints/
 
 
 ### Medical Imaging Datasets
-Please register and download those public available CXR datasets:
+Please register and download those publicly available CXR datasets:
 
 - [MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/)
 - [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) 
@@ -51,7 +51,7 @@ Note: Most experiment requires at least 3x 3090s during training the DPM models 
 
 **PadChest: 256 $\times$ 256**
 
-We only trained the DiffChest due to high computation cost.
+We only trained the DiffChest due to the high computation cost.
 This requires 3x 3090s.
 ```
 python run_padchest.py
@@ -70,11 +70,13 @@ python test_padchest_cls.py
 ```
 
 ## Visual explanations 
-To generate visual explanations described in our paper, simply run:
+To generate visual explanations described in our paper, run:
 ```
 python manipulate.py
 ```
 
+## Citing Us
+If you use DiffChest, we would appreciate your references to [our paper](https://arxiv.org/abs/2309.17123v1).
 
 ## Issues
 Please open new issue threads specifying the issue with the codebase or report issues directly to than@ukaachen.de.
